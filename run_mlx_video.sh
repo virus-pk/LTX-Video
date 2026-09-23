@@ -4,6 +4,7 @@
 # Set default cache directories if not already set
 export MLX_CACHE_DIR="${MLX_CACHE_DIR:-$HOME/Models/mlx-cache}"
 export HF_HOME="${HF_HOME:-$HOME/Models/huggingface}"
+export HF_TOKEN="${HF_TOKEN:-}" # Set this to your Hugging Face token
 
 # Ensure directories exist
 mkdir -p "$MLX_CACHE_DIR"
